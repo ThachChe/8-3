@@ -19,7 +19,7 @@ body {
   font-family:
     "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic",
     sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   height: 130px;
   width: 1700px;
   padding-top: 10px;
@@ -71,7 +71,7 @@ body {
   animation: heartbeat 1.2s ease-in-out infinite;
 
   position: absolute;
-  top: 100px;
+  top: 110px;
   z-index: 0; /* thấp hơn chữ */
 
   user-select: none;
@@ -114,7 +114,7 @@ body {
 
   position: absolute;
   left: center;
-  top: 170px;
+  top: 150px;
 }
 
 .text3 {
@@ -130,6 +130,48 @@ body {
   position: absolute;
   left: center;
   top: 580px;
+}
+
+a:visited,
+a:hover,
+a:active {
+  font-size: 18px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 130px;
+  height: 10px;
+  background-color: white;
+  border: 5px solid grey;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 30px;
+
+  position: absolute;
+  top: 640px;
+  left: 1330px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.box p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
 }
 
 @keyframes fly {
